@@ -13,6 +13,7 @@ var AppView = Backbone.View.extend({
   },
 
   render: function(){
+    console.log(this.libraryView.el);
     return this.$el.html([
       this.playerView.$el,
       this.libraryView.$el
