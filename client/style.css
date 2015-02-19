@@ -1,0 +1,19 @@
+body {
+  font-family: Helvetica Nueue, Helvetica, sans-serif;
+  font-weight: 200;
+  background: url('assets/aaliyah.jpeg') 0px 0px / 100% no-repeat;
+  display: block;
+  position: relative
+}
+
+audio {
+  position: relative;
+  display: block;
+}
+
+table {
+  position: relative;
+  display: inline-block;
+  height: 200px;
+  width: 350px;
+}
