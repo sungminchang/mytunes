@@ -24,7 +24,7 @@
     <script src="views/SongQueueView.js"></script>
     <script src="views/SongQueueEntryView.js"></script>
     <script src="views/AppView.js"></script>
-
+    <img src="assets/oneinamillion.jpg">
     <script>
       $(function(){
         // set up model objects
@@ -36,6 +36,13 @@
 
         // put the view onto the screen
         $('body').append(appView.render());
+        $('img').on('load', function(e){
+          e.preventDefault();
+          $(this).css({
+            'transform': 'rotateZ(360deg)',
+            'transition': '3s',
+          });
+        });
       });
     </script>
   </body>

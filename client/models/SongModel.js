@@ -3,7 +3,8 @@ var SongModel = Backbone.Model.extend({
 
   defaults: {
     'artist': '',
-    'title': ''
+    'title': '',
+    'picture': ''
   },
 
   play: function(){
